@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>335</width>
+    <height>37</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Food choice</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../icons/toolbox--pencil.png</normaloff>../icons/toolbox--pencil.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>335</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menudata">
+    <property name="title">
+     <string>How to get a good grade!</string>
+    </property>
+    <addaction name="action_algo"/>
+    <addaction name="separator"/>
+    <addaction name="action_tree"/>
+    <addaction name="separator"/>
+    <addaction name="action_forest"/>
+   </widget>
+   <addaction name="menudata"/>
+  </widget>
+  <action name="action_algo">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icons/wand-hat.png</normaloff>../icons/wand-hat.png</iconset>
+   </property>
+   <property name="text">
+    <string>Linear model</string>
+   </property>
+  </action>
+  <action name="action_case">
+   <property name="icon">
+    <iconset>
+     <normaloff>../icons/user-silhouette-question.png</normaloff>../icons/user-silhouette-question.png</iconset>
+   </property>
+   <property name="text">
+    <string>Studying the case!</string>
+   </property>
+  </action>
+  <action name="action_ppt">
+   <property name="icon">
+    <iconset>
+     <normaloff>../icons/projection-screen-presentation.png</normaloff>../icons/projection-screen-presentation.png</iconset>
+   </property>
+   <property name="text">
+    <string>PPT slides</string>
+   </property>
+  </action>
+  <action name="action_doc">
+   <property name="icon">
+    <iconset>
+     <normaloff>../icons/document-code.png</normaloff>../icons/document-code.png</iconset>
+   </property>
+   <property name="text">
+    <string>Code doc</string>
+   </property>
+  </action>
+  <action name="action_tree">
+   <property name="icon">
+    <iconset>
+     <normaloff>../icons/construction.png</normaloff>../icons/construction.png</iconset>
+   </property>
+   <property name="text">
+    <string>Decision tree</string>
+   </property>
+  </action>
+  <action name="action_forest">
+   <property name="text">
+    <string>Random forest</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
